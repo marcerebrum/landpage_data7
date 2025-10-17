@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables for color scheme */
+:root {
+  --color-primary: #020618;
+  --color-secondary: #00DC82;
+  --color-tertiary: #FFFFFF;
+  --color-black: #000000;
+  
+  /* Gradient variables */
+  --gradient-primary-secondary: linear-gradient(135deg, #020618 0%, #00DC82 100%);
+  --gradient-secondary-primary: linear-gradient(135deg, #00DC82 0%, #020618 100%);
+  --gradient-primary-tertiary: linear-gradient(135deg, #020618 0%, #FFFFFF 100%);
+  --gradient-tertiary-primary: linear-gradient(135deg, #FFFFFF 0%, #020618 100%);
+  --gradient-secondary-tertiary: linear-gradient(135deg, #00DC82 0%, #FFFFFF 100%);
+  --gradient-tertiary-secondary: linear-gradient(135deg, #FFFFFF 0%, #00DC82 100%);
+  --gradient-primary-secondary-tertiary: linear-gradient(135deg, #020618 0%, #00DC82 50%, #FFFFFF 100%);
+  --gradient-radial-primary: radial-gradient(circle, #020618 0%, #000000 100%);
+  --gradient-radial-secondary: radial-gradient(circle, #00DC82 0%, #020618 100%);
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
+/* Utility classes for quick access */
+.bg-primary { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-tertiary { background-color: var(--color-tertiary); }
+.bg-black { background-color: var(--color-black); }
+
+.text-primary { color: var(--color-primary); }
+.text-secondary { color: var(--color-secondary); }
+.text-tertiary { color: var(--color-tertiary); }
+.text-black { color: var(--color-black); }
+
+.bg-gradient-primary-secondary { background: var(--gradient-primary-secondary); }
+.bg-gradient-secondary-primary { background: var(--gradient-secondary-primary); }
+.bg-gradient-primary-tertiary { background: var(--gradient-primary-tertiary); }
+.bg-gradient-tertiary-primary { background: var(--gradient-tertiary-primary); }
+.bg-gradient-secondary-tertiary { background: var(--gradient-secondary-tertiary); }
+.bg-gradient-tertiary-secondary { background: var(--gradient-tertiary-secondary); }
+.bg-gradient-primary-secondary-tertiary { background: var(--gradient-primary-secondary-tertiary); }
+.bg-gradient-radial-primary { background: var(--gradient-radial-primary); }
+.bg-gradient-radial-secondary { background: var(--gradient-radial-secondary); }
+
+/* Border utilities */
+.border-primary { border-color: var(--color-primary); }
+.border-secondary { border-color: var(--color-secondary); }
+.border-tertiary { border-color: var(--color-tertiary); }
+.border-black { border-color: var(--color-black); }
+
+/* Shadow utilities */
+.shadow-primary { box-shadow: 0 4px 6px -1px rgba(2, 6, 24, 0.1), 0 2px 4px -1px rgba(2, 6, 24, 0.06); }
+.shadow-secondary { box-shadow: 0 4px 6px -1px rgba(0, 220, 130, 0.1), 0 2px 4px -1px rgba(0, 220, 130, 0.06); }
+.shadow-tertiary { box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.1), 0 2px 4px -1px rgba(255, 255, 255, 0.06); }
