@@ -1,5 +1,9 @@
 <template>
-  <section class="py-16 bg-primary">
+  <section 
+    class="py-16 bg-primary opacity-0 transition-opacity duration-1000" 
+    :class="{ 'opacity-100': isVisible }"
+    ref="sectionRef"
+  >
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <!-- Left Column -->
@@ -27,4 +31,26 @@
 <script setup>
 import Badge from '~/components/Badge.vue'
 import RightShowcase from '~/components/sections/RightShowcase.vue'
+import { ref, onMounted } from 'vue'
+
+const sectionRef = ref(null)
+const isVisible = ref(false)
+
+onMounted(() => {
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        isVisible.value = true
+        observer.disconnect()
+      }
+    },
+    {
+      threshold: 0.2 // Começa a animação quando 20% da seção estiver visível
+    }
+  )
+
+  if (sectionRef.value) {
+    observer.observe(sectionRef.value)
+  }
+})
 </script>
