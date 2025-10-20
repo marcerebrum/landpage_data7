@@ -64,6 +64,8 @@ const config: Config = {
         "fade-in": "fadeIn 0.5s ease-in-out",
         "slide-up": "slideUp 0.5s ease-out",
         "pulse-slow": "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "progress-pulse": "progressPulse 1.5s ease-in-out infinite",
+        "loading-dots": "loadingDots 1.5s infinite",
       },
       keyframes: {
         fadeIn: {
@@ -73,6 +75,17 @@ const config: Config = {
         slideUp: {
           "0%": { transform: "translateY(20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        progressPulse: {
+          "0%": { opacity: "1", transform: "scaleX(0.98)" },
+          "50%": { opacity: "0.8", transform: "scaleX(1)" },
+          "100%": { opacity: "1", transform: "scaleX(0.98)" },
+        },
+        loadingDots: {
+          "0%, 20%": { content: "'...'" },
+          "40%": { content: "'.'" },
+          "60%": { content: "'..'" },
+          "80%, 100%": { content: "'...'" },
         },
       },
     },

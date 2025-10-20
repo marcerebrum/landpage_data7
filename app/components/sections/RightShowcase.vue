@@ -22,11 +22,14 @@
         <!-- Progress bar area -->
         <div class="mt-6 space-y-4">
           <div class="h-2 w-full bg-primary/40 rounded-full overflow-hidden">
-            <div class="h-full w-3/4 bg-gradient-to-r from-secondary to-secondary/60 rounded-full"></div>
+            <div class="h-full w-3/4 bg-gradient-to-r from-secondary to-secondary/60 rounded-full origin-left animate-progress-pulse"></div>
           </div>
-          <div class="flex justify-between items-center text-xs text-secondary/60 font-primary">
-            <span>Uploading...</span>
-            <span>75%</span>
+          <div class="flex justify-between items-center text-xs font-primary">
+            <div class="flex items-center gap-1">
+              <span class="text-secondary/80">Uploading</span>
+              <span class="text-secondary/60 after:content-['.'] after:animate-loading-dots"></span>
+            </div>
+            <span class="text-secondary/80">75%</span>
           </div>
         </div>
       </div>
