@@ -42,7 +42,12 @@
                 <path d="M12 7H7.5C6.83696 7 6.20107 6.73661 5.73223 6.26777C5.26339 5.79893 5 5.16304 5 4.5C5 3.83696 5.26339 3.20107 5.73223 2.73223C6.20107 2.26339 6.83696 2 7.5 2C11 2 12 7 12 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </div>
-            <span class="ml-3 text-tertiary text-left flex-1">Crie aplicativo completo de gestão ...</span>
+            <div class="relative ml-3 flex-1 group">
+              <p class="text-tertiary text-left break-words whitespace-normal line-clamp-1 hover:line-clamp-none transition-all duration-200">{{ text }}</p>
+              <div class="absolute left-0 -top-12 bg-black/90 text-xs text-white p-2 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 w-max max-w-md z-50 pointer-events-none">
+                {{ text }}
+              </div>
+            </div>
           </div>
           <button class="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-lg bg-secondary/10 hover:bg-secondary/20 border border-secondary/20 flex items-center justify-center transition-colors duration-200">
             <svg class="w-4 h-4 text-secondary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
