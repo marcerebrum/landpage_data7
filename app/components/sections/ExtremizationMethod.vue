@@ -32,15 +32,15 @@
           <!-- Left Column -->
           <div class="text-left">
             <div class="flex items-center gap-3 mb-6">
-              <div class="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center">
-                <svg class="w-6 h-6 text-primary" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <div class="w-10 h-10 rounded-xl bg-yellow-100 border border-yellow-200 flex items-center justify-center">
+                <svg class="w-6 h-6 text-yellow-400" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L14.4 7.2L20 8.4L16 12.6L17.2 18L12 15.6L6.8 18L8 12.6L4 8.4L9.6 7.2L12 2Z"/>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold text-tertiary">O que é</h3>
+              <h3 class="text-2xl font-bold text-tertiary">Porque Funciona</h3>
             </div>
             <p class="text-secondary leading-relaxed">
-              Componentização extrema significa decompor funcionalidades em pequenos componentes com contrato bem definido, testes isolados e integração via interfaces claras.
+              Com o método de <span class="text-[#13a36e]">componentização extrema</span>, você cria componentes de forma isolada, definindo claramente suas responsabilidades, métodos, funções e propriedades. Esses componentes são então importados e reutilizados dentro de outros componentes, montando o aplicativo de forma modular. Esta abordagem segue os <span class="text-[#13a36e]">princípios de design de código</span> e arquitetura de software, mantendo o código <span class="text-[#13a36e]">limpo, escalável, seguro</span> e, principalmente, <span class="text-[#13a36e]">sob seu total controle</span>.
             </p>
           </div>
 
