@@ -7,6 +7,7 @@
     <ExtremizationMethod />
     <Possibilities />
     <CourseContent />
+    <Testimonials />
   </div>
 </template>
 
@@ -17,4 +18,5 @@ import VibeCoding from '~/components/sections/VibeCoding.vue'
 import ExtremizationMethod from '~/components/sections/ExtremizationMethod.vue'
 import CourseContent from '~/components/sections/CourseContent.vue'
 import Possibilities from '~/components/sections/Possibilities.vue'
+import Testimonials from '~/components/sections/Testimonials.vue'
 </script>

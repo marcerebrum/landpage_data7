@@ -26,6 +26,7 @@
             title="Infraestrutura"
             moduleNumber="Módulo 01"
             description="Configure um ambiente de desenvolvimento completo e profissional desde o início, com todas as ferramentas necessárias para criar aplicações robustas."
+            status="recorded"
             :topics="[
               'Configuração do ambiente de desenvolvimento',
               'Instalação e configuração do Node.js e npm',
@@ -46,6 +47,7 @@
             title="Codificação com IA"
             moduleNumber="Módulo 02"
             description="Aprenda a usar ferramentas de Inteligência Artificial para acelerar o desenvolvimento, gerar código de qualidade e resolver problemas complexos de forma eficiente."
+            status="recorded"
             :topics="[
               'Introdução às ferramentas de IA para desenvolvimento',
               'Configuração do ChatGPT, Claude e Copilot',
@@ -66,6 +68,7 @@
             title="Deploy na Vercel"
             moduleNumber="Módulo 03"
             description="Publique seus aplicativos na nuvem com confiança, configurando deploys automatizados, domínios personalizados e monitoramento profissional."
+            status="recording"
             :topics="[
               'Introdução ao Vercel e suas funcionalidades',
               'Configuração de conta e projeto no Vercel',
@@ -81,6 +84,29 @@
             iconColorStart="purple-500"
             iconColorEnd="purple-600"
             iconPath="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+          />
+
+          <!-- Módulo 04 - Produção e Escalabilidade -->
+          <ExpandableCard
+            title="Produção e Escalabilidade"
+            moduleNumber="Módulo 04"
+            description="Levante sua aplicação para o nível profissional com monitoramento avançado, otimização de performance e estratégias de escalabilidade empresarial."
+            status="coming-soon"
+            :topics="[
+              'Arquitetura de produção e microsserviços',
+              'Monitoramento e observabilidade avançada',
+              'Otimização de performance e caching',
+              'Estratégias de backup e disaster recovery',
+              'Segurança em aplicações de produção',
+              'CI/CD pipelines avançados',
+              'Infrastructure as Code (Terraform/CloudFormation)',
+              'Load balancing e alta disponibilidade',
+              'Análise de custos e otimização de recursos',
+              'Deploy blue-green e canary releases'
+            ]"
+            iconColorStart="red-500"
+            iconColorEnd="red-600"
+            iconPath="M13 10V3L4 14h7v7l9-11h-7z"
           />
         </div>
 
