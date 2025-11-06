@@ -8,6 +8,7 @@
     <Possibilities />
     <CourseContent />
     <Testimonials />
+    <Checkout />
   </div>
 </template>
 
@@ -19,4 +20,5 @@ import ExtremizationMethod from '~/components/sections/ExtremizationMethod.vue'
 import CourseContent from '~/components/sections/CourseContent.vue'
 import Possibilities from '~/components/sections/Possibilities.vue'
 import Testimonials from '~/components/sections/Testimonials.vue'
+import Checkout from '~/components/sections/Checkout.vue'
 </script>
