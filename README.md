@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# DESCRIÇÃO DO PROJETO
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Réplica da landing page do curso Acelerador SaaS
 
-## Setup
+# LINK DO PROJETO NA VERCEL
 
-Make sure to install dependencies:
+[https://landpage-data7.vercel.app/](https://landpage-data7.vercel.app/)
 
-```bash
-# npm
-npm install
+# FERRAMENTAS UTILIZADAS
 
-# pnpm
-pnpm install
+* Nuxt.JS - framework javascript
+* Tailwind - framework CSS
+* VSCODE - IDE para desenvolvimento na metodologia "Vibe Coding"
+* LLM - Minimax M2
+* Github - versionamento do código
+* Vercel - hospedagem com deploy automatico, conforme atualizações no Github
 
-# yarn
-yarn install
+# PROCESSO DE DESENVOLVIMENTO
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Desenvolvimento das seções por fases, sendo componentes isolados, definindo claramente suas responsabilidades, métodos, funções e propriedades.
