@@ -10,6 +10,7 @@
     <Testimonials />
     <Checkout />
     <FAQ />
+    <Footer />
   </div>
 </template>
 
@@ -23,4 +24,5 @@ import Possibilities from '~/components/sections/Possibilities.vue'
 import Testimonials from '~/components/sections/Testimonials.vue'
 import FAQ from '~/components/sections/FAQ.vue'
 import Checkout from '~/components/sections/Checkout.vue'
+import Footer from '~/components/sections/Footer.vue'
 </script>
